@@ -6,6 +6,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProviders
 import info.yazdan.cocktail.R
 import info.yazdan.cocktail.databinding.ActivityHostBinding
+import info.yazdan.cocktail.helper.forceClearFocus
 import info.yazdan.cocktail.ui.base.BaseActivity
 import org.kodein.di.Kodein
 import org.kodein.di.KodeinAware

@@ -73,6 +73,10 @@ class SearchFragment : BaseFragment(), KodeinAware, ISearchFragment, GenericUriL
     }
 
     private fun initializeSearchBox() {
+
+        binding.searchEditText.postDelayed({
+            activity?.forceClearFocus(binding.searchEditText)
+        }, 200)
         context?.let {context ->
             viewModel.ingredients.observe(viewLifecycleOwner, Observer {
                 val adapter = ArrayAdapter<String>(context, android.R.layout.select_dialog_item, it)
