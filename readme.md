@@ -5,7 +5,7 @@ This project gets information form an api and uses the following technologies:
 
   - Kotlin
   - Clean Architecture
-  - Design Patterns (Singleton, Factory, Repository, Stratagy, Observer)
+  - Design Patterns (Singleton, Factory, Repository, Strategy, Observer)
   - UI Trasition
   - MVVM
   - Room
