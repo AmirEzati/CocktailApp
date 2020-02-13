@@ -1,5 +1,5 @@
 # CocktailApp
-
+ ![](CocktailApp.gif)
 This project gets information form an api and uses the following technologies:
 
 
@@ -19,4 +19,5 @@ This project gets information form an api and uses the following technologies:
   - UI Test (Espresso)
   - Firebase 
  
+
 
